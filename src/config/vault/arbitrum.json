@@ -114,7 +114,7 @@
       "CONTRACTS_VERIFIED"
     ],
     "callFee": 0.5,
-    "buyTokenUrl": "https://app.1inch.io/#/56/swap/BNB/BIFI",
+    "buyTokenUrl": "no",
     "createdAt": 1630480921,
     "network": "arbitrum"
   }
