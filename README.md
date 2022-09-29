@@ -1,9 +1,9 @@
-# beefy-v2
-Beefy Finance, The Multichain Yield Optimizer v2 Multichain Application. One app for everything Beefy.
+# Kintsugi Frontend
+Kintsugi Finance, The Multichain Yield Optimizer for Arbitrum.
 
 ## Overview
 
-Official frontend repo of [beefy.finance](https://app.beefy.finance). Multichain yield farming optimizer.
+Official frontend repo of [kintsugi.finance](https://app.kintsugi.finance). Multichain yield farming optimizer.
 
 ## To Run to test against a local development server 
 ```
@@ -16,7 +16,7 @@ If any error is noted during validation, fix before starting the server, which w
 
 ## Contribute
 
-Beefy.Finance exists thanks to its contributors. There are many ways you can participate and help build high quality software. Check out the [contribution guide](CONTRIBUTING.md)!
+Kintsugi.Finance exists thanks to its contributors. There are many ways you can participate and help build high quality software. Check out the [contribution guide](CONTRIBUTING.md)!
 
 ## License
 
