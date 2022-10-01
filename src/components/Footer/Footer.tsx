@@ -6,61 +6,55 @@ import { ReactComponent as IconGithub } from '../../images/socials/github.svg';
 import { ReactComponent as IconTelegram } from '../../images/socials/telegram.svg';
 import { ReactComponent as IconDiscord } from '../../images/socials/discord.svg';
 import { ReactComponent as IconTwitter } from '../../images/socials/twitter.svg';
-import { ReactComponent as IconReddit } from '../../images/socials/reddit.svg';
 
 // Re-using header translations, allowing overwrite with footer specific ones
 const navLinks = [
   {
     title: ['Footer-Proposals', 'Header-Proposals'],
-    path: 'https://vote.beefy.finance',
+    path: 'https://vote.kintsugi.finance',
   },
   {
     title: ['Footer-Stats', 'Header-Stats'],
-    path: 'https://dashboard.beefy.com',
+    path: 'https://dashboard.kintsugi.com',
   },
   {
     title: ['Footer-News', 'Header-News'],
-    path: 'https://beefy.com/articles/',
+    path: 'https://kintsugi.finance/',
   },
   {
     title: ['Footer-Docs', 'Header-Docs'],
-    path: 'https://docs.beefy.finance',
+    path: 'https://docs.kintsugi.finance',
   },
   {
     title: 'Footer-Audit',
-    path: 'https://github.com/beefyfinance/beefy-audits',
+    path: 'https://github.com/Kintsugi-Finance/The-TSU-Docs',
   },
   {
     title: 'Footer-MediaKit',
-    path: 'https://beefy.com/media-kit/',
+    path: 'https://kintsugi.finance',
   },
 ];
 
 const socialLinks = [
   {
     title: 'GitHub',
-    path: 'https://github.com/beefyfinance',
+    path: 'https://github.com/Kintsugi-Finance',
     Icon: IconGithub,
   },
   {
     title: 'Telegram',
-    path: 'https://t.me/doggregator',
+    path: 'https://t.me/KintsugiArbi',
     Icon: IconTelegram,
   },
   {
     title: 'Discord',
-    path: 'https://discord.gg/yq8wfHd',
+    path: '',
     Icon: IconDiscord,
   },
   {
     title: 'Twitter',
-    path: 'https://twitter.com/beefyfinance',
+    path: 'https://twitter.com/kintsugiArbi',
     Icon: IconTwitter,
-  },
-  {
-    title: 'Reddit',
-    path: 'https://www.reddit.com/r/Beefy/',
-    Icon: IconReddit,
   },
 ];
 

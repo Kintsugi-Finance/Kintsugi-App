@@ -39,8 +39,8 @@
     "tokenDecimals": 18,
     "tokenProviderId": "sushiswap",
     "earnedToken": "wooSushiMAGIC-ETH",
-    "earnedTokenAddress": "0x1240a2bf388FcBc9eeF5b199Fc08409c3D78d514",
-    "earnContractAddress": "0x1240a2bf388FcBc9eeF5b199Fc08409c3D78d514",
+    "earnedTokenAddress": "0xdC42F3e2FAa635d51eb788B0C39B526ad95851AC",
+    "earnContractAddress": "0xdC42F3e2FAa635d51eb788B0C39B526ad95851AC",
     "oracle": "lps",
     "oracleId": "sushi-arb-magic-weth",
     "status": "active",
@@ -51,7 +51,7 @@
       "COMPLEXITY_LOW",
       "BATTLE_TESTED",
       "IL_HIGH",
-      "MCAP_MEDIUM",
+      "MCAP_HIGH",
       "AUDIT",
       "CONTRACTS_VERIFIED"
     ],
@@ -80,7 +80,7 @@
     "risks": [
       "COMPLEXITY_LOW",
       "BATTLE_TESTED",
-      "IL_HIGH",
+      "IL_LOW",
       "MCAP_HIGH",
       "AUDIT",
       "CONTRACTS_VERIFIED"
@@ -111,7 +111,7 @@
       "COMPLEXITY_LOW",
       "BATTLE_TESTED",
       "IL_HIGH",
-      "MCAP_HIGH",
+      "MCAP_MEDIUM",
       "AUDIT",
       "CONTRACTS_VERIFIED"
     ],
@@ -170,8 +170,8 @@
     "risks": [
       "COMPLEXITY_LOW",
       "BATTLE_TESTED",
-      "IL_HIGH",
-      "MCAP_HIGH",
+      "IL_MEDIUM",
+      "MCAP_MEDIUM",
       "AUDIT",
       "CONTRACTS_VERIFIED"
     ],
