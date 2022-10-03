@@ -19,11 +19,11 @@ export const styles = (theme: Theme) => ({
     textOverflow: 'ellipsis',
   },
   row: {
-    backgroundColor: '#2D3153',
+    backgroundColor: '#4f4212',
     display: 'grid',
     gridTemplateColumns: '35fr 35fr 30fr',
     padding: '16px 24px',
-    borderBottom: 'solid 2px #363B63',
+    borderBottom: 'solid 2px #705d19',
     alignItems: 'center',
     columnGap: '16px',
     '&:last-child': {
@@ -38,7 +38,7 @@ export const styles = (theme: Theme) => ({
     color: '#999CB3',
   },
   footer: {
-    backgroundColor: '#363B63',
+    backgroundColor: '#B2951E',
     borderBottomLeftRadius: '8px',
     borderBottomRightRadius: '8px',
     [theme.breakpoints.up('lg')]: {
