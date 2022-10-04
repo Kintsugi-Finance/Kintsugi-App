@@ -179,6 +179,7 @@
     "buyTokenUrl": "https://app.sushi.com/swap?inputCurrency=0x3E6648C5a70A150A88bCE65F4aD4d506Fe15d2AF&outputCurrency=0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
     "addLiquidityUrl": "https://app.sushi.com/add/0x3E6648C5a70A150A88bCE65F4aD4d506Fe15d2AF/0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
     "createdAt": 1664457133,
-    "network": "arbitrum"
+    "network": "arbitrum",
+    "welp": "welp"
   }
 ]
