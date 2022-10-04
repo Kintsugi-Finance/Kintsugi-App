@@ -43,7 +43,7 @@ const socialLinks = [
   },
   {
     title: 'Telegram',
-    path: 'https://t.me/KintsugiArbi',
+    path: 'https://t.me/KintsugiFinance',
     Icon: IconTelegram,
   },
   {
@@ -53,7 +53,7 @@ const socialLinks = [
   },
   {
     title: 'Twitter',
-    path: 'https://twitter.com/kintsugiArbi',
+    path: 'https://twitter.com/kintsugiFinance',
     Icon: IconTwitter,
   },
 ];
