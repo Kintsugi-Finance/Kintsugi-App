@@ -35,7 +35,7 @@ const WalletContainer = React.lazy(() => import(`./components/WalletContainer`))
 const useStyles = makeStyles(styles);
 
 const BifiPrice = connect((state: BeefyState) => {
-  const beefyPrice = state.entities.tokens.prices.byOracleId['BTC'] || BIG_ZERO;
+  const beefyPrice = state.entities.tokens.prices.byOracleId['MAGIC'] || BIG_ZERO;
   return { beefyPrice };
 })(({ beefyPrice }: { beefyPrice: BigNumber }) => {
   const classes = useStyles();
@@ -57,10 +57,10 @@ const NavLinks = memo(function () {
   const classes = useStyles();
   const navLinks = [
     { title: t('Header-Vaults'), url: '/' },
-    { title: t('Header-Proposals'), url: 'https://vote.doggregator.dog' },
+    { title: t('Header-Proposals'), url: 'https://vote.kintsugi.dog' },
     // { title: t('Header-BuyCrypto'), url: '/onramp' },
-    { title: t('Header-News'), url: 'https://doggregator.dog/articles/' },
-    { title: t('Header-Docs'), url: 'https://docs.doggregator.dog' },
+    { title: t('Header-News'), url: 'https://kintsugi.dog/articles/' },
+    { title: t('Header-Docs'), url: 'https://docs.kintsugi.com' },
   ];
   return (
     <>
