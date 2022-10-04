@@ -6,7 +6,11 @@ export const styles = (theme: Theme) => ({
     flexDirection: 'column' as const,
     justifyContent: 'center',
     backgroundImage:
+<<<<<<< HEAD
     'linear-gradient(to bottom, #4f4212 0%, #4f4212 50%, #705d19 50%, #705d19 100%)',
+=======
+      'linear-gradient(to bottom, #4f4212 0%, #4f4212 50%, #705d19 50%, #705d19 100%)',
+>>>>>>> d8ab3a2389a0aa7fb4fc179b4b7678d4b6663733
     borderBottomLeftRadius: '8px',
     borderBottomRightRadius: '8px',
     [theme.breakpoints.up('lg')]: {
