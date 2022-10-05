@@ -14,43 +14,40 @@ import {
   useMediaQuery,
 } from '@material-ui/core';
 import { Close, Menu } from '@material-ui/icons';
-import BigNumber from 'bignumber.js';
+// import BigNumber from 'bignumber.js';
 import clsx from 'clsx';
 import { useTranslation } from 'react-i18next';
 import {
   selectCurrentChainId,
   selectIsWalletConnected,
 } from '../../features/data/selectors/wallet';
-import { formatBigUsd } from '../../helpers/format';
+// import { formatBigUsd } from '../../helpers/format';
 import { BeefyState } from '../../redux-types';
 import { LanguageDropdown } from '../LanguageDropdown';
 import { ChainEntity } from '../../features/data/entities/chain';
 import { NetworkStatus } from '../NetworkStatus';
 import { styles } from './styles';
-import { BIG_ZERO } from '../../helpers/big-number';
+// import { BIG_ZERO } from '../../helpers/big-number';
 
 // lazy load web3 related stuff, as libs are quite heavy
 const WalletContainer = React.lazy(() => import(`./components/WalletContainer`));
 
 const useStyles = makeStyles(styles);
 
-const BifiPrice = connect((state: BeefyState) => {
-  const beefyPrice = state.entities.tokens.prices.byOracleId['MAGIC'] || BIG_ZERO;
-  return { beefyPrice };
-})(({ beefyPrice }: { beefyPrice: BigNumber }) => {
-  const classes = useStyles();
+const BifiPrice = () => {
   return (
-    <a
-      className={classes.bifiPrice}
-      href="https://www.kibbleswap.dog/swap?from=wdoge&to=<replacewithtoken>"
-      target="_blank"
-      rel="noreferrer"
-    >
-      <img alt="BIFI" src={require(`../../images/bifi-logos/Kint-short-white.svg`).default} />
-      {formatBigUsd(beefyPrice)}
+    <a href="https://docs.kintsugi.finance">
+    <img
+      alt="kintsugi"
+      style={{ width: 34 }}
+      src={require(`../../images/bifi-logos/Kint-short-white.svg`).default}
+    />
     </a>
+    
   );
-});
+
+
+};
 
 const NavLinks = memo(function () {
   const { t } = useTranslation();
