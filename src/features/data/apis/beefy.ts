@@ -99,11 +99,11 @@ export class BeefyAPI {
   constructor() {
     // this could be mocked by passing mock axios to the constructor
     this.api = axios.create({
-      baseURL: process.env.REACT_APP_API_URL || 'http://65.109.22.48:3000/',
+      baseURL: process.env.REACT_APP_API_URL || 'https://api.beefy.finance',
       timeout: 30 * 1000,
     });
     this.data = axios.create({
-      baseURL: process.env.REACT_APP_DATA_URL || 'http://65.109.22.48:3000/',
+      baseURL: process.env.REACT_APP_DATA_URL || 'https://data.beefy.finance',
       timeout: 30 * 1000,
     });
   }
