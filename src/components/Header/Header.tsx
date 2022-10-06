@@ -37,16 +37,13 @@ const useStyles = makeStyles(styles);
 const BifiPrice = () => {
   return (
     <a href="https://docs.kintsugi.finance">
-    <img
-      alt="kintsugi"
-      style={{ width: 34 }}
-      src={require(`../../images/bifi-logos/Kint-short-white.svg`).default}
-    />
+      <img
+        alt="kintsugi"
+        style={{ width: 34 }}
+        src={require(`../../images/bifi-logos/Kint-short-white.svg`).default}
+      />
     </a>
-    
   );
-
-
 };
 
 const NavLinks = memo(function () {
@@ -54,10 +51,10 @@ const NavLinks = memo(function () {
   const classes = useStyles();
   const navLinks = [
     { title: t('Header-Vaults'), url: '/' },
-    { title: t('Header-Proposals'), url: 'https://vote.kintsugi.dog' },
+    { title: t('Header-Proposals'), url: 'https://vote.kintsugi.finance' },
     // { title: t('Header-BuyCrypto'), url: '/onramp' },
-    { title: t('Header-News'), url: 'https://kintsugi.dog/articles/' },
-    { title: t('Header-Docs'), url: 'https://docs.kintsugi.com' },
+    { title: t('Header-News'), url: 'https://kintsugi.finance/articles/' },
+    { title: t('Header-Docs'), url: 'https://docs.kintsugi.finance' },
   ];
   return (
     <>

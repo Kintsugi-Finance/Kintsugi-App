@@ -11,7 +11,7 @@
     "earnContractAddress": "0x7Fcd34C60Ef6C26d939623501d8e87e15E3a621b",
     "isGovVault": true,
     "oracle": "tokens",
-    "oracleId": "MAGIC",
+    "oracleId": "USDC",
     "status": "active",
     "platformId": "sushiswap",
     "excluded": "arbi-bifi-maxi",
