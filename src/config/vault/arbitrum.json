@@ -180,5 +180,31 @@
     "addLiquidityUrl": "https://app.sushi.com/add/0x3E6648C5a70A150A88bCE65F4aD4d506Fe15d2AF/0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
     "createdAt": 1664457133,
     "network": "arbitrum"
+  },{
+    "id": "bifi-maxi",
+    "name": "TSU Native",
+    "token": "TSU",
+    "tokenAddress": "0x3A3207B4a33a93fA84ac9b04440A05E6d029A1dB",
+    "tokenDecimals": 18,
+    "earnedToken": "wooTSUV2",
+    "earnedTokenAddress": "0x63Db847887E4AD9b159F11B2071b0355a61f507D",
+    "earnContractAddress": "0x63Db847887E4AD9b159F11B2071b0355a61f507D",
+    "oracle": "tokens",
+    "oracleId": "BIFI",
+    "status": "active",
+    "platformId": "sushiswap",
+    "assets": ["TSU"],
+    "strategyTypeId": "maxi",
+    "risks": [
+      "COMPLEXITY_LOW",
+      "BATTLE_TESTED",
+      "IL_NONE",
+      "MCAP_MEDIUM",
+      "AUDIT",
+      "CONTRACTS_VERIFIED"
+    ],
+    "buyTokenUrl": "https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x3A3207B4a33a93fA84ac9b04440A05E6d029A1dB",
+    "network": "arbitrum",
+    "createdAt": 1665069736
   }
 ]
