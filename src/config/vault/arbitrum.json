@@ -118,5 +118,34 @@
     "addLiquidityUrl": "https://app.sushi.com/add/0x3E6648C5a70A150A88bCE65F4aD4d506Fe15d2AF/0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
     "createdAt": 1664457133,
     "network": "arbitrum"
+  },
+  {
+    "id": "radiant-rdnt-weth",
+    "name": "RDNT-ETH",
+    "token": "RDNT-ETH LP",
+    "tokenAddress": "0x24704aFF49645D32655A76Df6d407E02d146dAfC",
+    "tokenDecimals": 18,
+    "tokenProviderId": "sushiswap",
+    "earnedToken": "wooRadiantRDNT-ETH",
+    "earnedTokenAddress": "0xAcc327EeE39541319fF5431ae04f0339535233f3",
+    "earnContractAddress": "0xAcc327EeE39541319fF5431ae04f0339535233f3",
+    "oracle": "lps",
+    "oracleId": "radiant-rdnt-weth",
+    "status": "active",
+    "platformId": "radiant",
+    "assets": ["RDNT", "ETH"],
+    "strategyTypeId": "lp",
+    "risks": [
+      "COMPLEXITY_LOW",
+      "BATTLE_TESTED",
+      "IL_MEDIUM",
+      "MCAP_MEDIUM",
+      "AUDIT",
+      "CONTRACTS_VERIFIED"
+    ],
+    "addLiquidityUrl": "https://app.sushi.com/legacy/add/0x82aF49447D8a07e3bd95BD0d56f35241523fBab1/0x0C4681e6C0235179ec3D4F4fc4DF3d14FDD96017?chainId=42161",
+    "buyTokenUrl": "https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x0C4681e6C0235179ec3D4F4fc4DF3d14FDD96017&chainId=42161",
+    "network": "arbitrum",
+    "createdAt": 1665245635
   }
 ]
