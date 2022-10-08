@@ -1,37 +1,5 @@
 [
   {
-    "id": "arbi-bifi-gov",
-    "name": "TSU Earnings Pool",
-    "token": "TSU",
-    "tokenAddress": "0x3A3207B4a33a93fA84ac9b04440A05E6d029A1dB",
-    "tokenDecimals": 18,
-    "earnedToken": "WETH",
-    "earnedTokenAddress": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
-    "earnedTokenDecimals": 18,
-    "earnContractAddress": "0x7Fcd34C60Ef6C26d939623501d8e87e15E3a621b",
-    "isGovVault": true,
-    "oracle": "tokens",
-    "oracleId": "USDC",
-    "status": "active",
-    "platformId": "sushiswap",
-    "excluded": "arbi-bifi-maxi",
-    "assets": ["WETH"],
-    "strategyTypeId": "single",
-    "risks": [
-      "COMPLEXITY_LOW",
-      "BATTLE_TESTED",
-      "IL_NONE",
-      "MCAP_SMALL",
-      "AUDIT",
-      "CONTRACTS_VERIFIED"
-    ],
-    "callFee": 0.5,
-    "buyTokenUrl": "https://app.1inch.io/#/56/swap/BNB/BIFI",
-    "createdAt": 1663792854,
-    "network": "arbitrum"
-  },
-
-  {
     "id": "sushi-arb-magic-weth",
     "name": "MAGIC-ETH LP",
     "token": "MAGIC-ETH LP",
@@ -69,8 +37,8 @@
     "tokenDecimals": 18,
     "tokenProviderId": "sushiswap",
     "earnedToken": "wooSushiGOHM-ETH",
-    "earnedTokenAddress": "0x0090AA9595A362B5314aa4069eb923AB4721a268",
-    "earnContractAddress": "0x0090AA9595A362B5314aa4069eb923AB4721a268",
+    "earnedTokenAddress": "0x503b202f0E5e1D0b91c77BcED94327Ee0db8eaC2",
+    "earnContractAddress": "0x503b202f0E5e1D0b91c77BcED94327Ee0db8eaC2",
     "oracle": "lps",
     "oracleId": "sushi-arb-weth-gohm",
     "status": "active",
@@ -122,36 +90,6 @@
     "network": "arbitrum"
   },
   {
-    "id": "sushi-arb-eth-usdc",
-    "name": "USDC-ETH LP",
-    "token": "USDC-ETH LP",
-    "tokenAddress": "0x905dfcd5649217c42684f23958568e533c711aa3",
-    "tokenDecimals": 18,
-    "tokenProviderId": "sushiswap",
-    "earnedToken": "wooSushiWETH-USDC",
-    "earnedTokenAddress": "0x4af45BBA772550880F807B0912E613a69a069845",
-    "earnContractAddress": "0x4af45BBA772550880F807B0912E613a69a069845",
-    "oracle": "lps",
-    "oracleId": "sushi-arb-eth-usdc",
-    "status": "active",
-    "platformId": "sushi",
-    "assets": ["USDC", "ETH"],
-    "strategyTypeId": "lp",
-    "risks": [
-      "COMPLEXITY_LOW",
-      "BATTLE_TESTED",
-      "IL_HIGH",
-      "MCAP_HIGH",
-      "AUDIT",
-      "CONTRACTS_VERIFIED"
-    ],
-    "callFee": 0.5,
-    "addLiquidityUrl": "https://app.sushi.com/add/0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8/0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
-    "buyTokenUrl": "https://app.sushi.com/swap?inputCurrency=0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8&outputCurrency=0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
-    "createdAt": 1664455576,
-    "network": "arbitrum"
-  },
-  {
     "id": "sushi-arb-spell-weth",
     "name": "SPELL-ETH LP",
     "token": "SPELL-ETH LP",
@@ -180,31 +118,5 @@
     "addLiquidityUrl": "https://app.sushi.com/add/0x3E6648C5a70A150A88bCE65F4aD4d506Fe15d2AF/0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
     "createdAt": 1664457133,
     "network": "arbitrum"
-  },{
-    "id": "bifi-maxi",
-    "name": "TSU Native",
-    "token": "TSU",
-    "tokenAddress": "0x3A3207B4a33a93fA84ac9b04440A05E6d029A1dB",
-    "tokenDecimals": 18,
-    "earnedToken": "wooTSUV2",
-    "earnedTokenAddress": "0x63Db847887E4AD9b159F11B2071b0355a61f507D",
-    "earnContractAddress": "0x63Db847887E4AD9b159F11B2071b0355a61f507D",
-    "oracle": "tokens",
-    "oracleId": "BIFI",
-    "status": "active",
-    "platformId": "sushiswap",
-    "assets": ["TSU"],
-    "strategyTypeId": "maxi",
-    "risks": [
-      "COMPLEXITY_LOW",
-      "BATTLE_TESTED",
-      "IL_NONE",
-      "MCAP_MEDIUM",
-      "AUDIT",
-      "CONTRACTS_VERIFIED"
-    ],
-    "buyTokenUrl": "https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x3A3207B4a33a93fA84ac9b04440A05E6d029A1dB",
-    "network": "arbitrum",
-    "createdAt": 1665069736
   }
 ]
