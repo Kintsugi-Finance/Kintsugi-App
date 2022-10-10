@@ -4,35 +4,17 @@ import { styles } from './styles';
 import { useTranslation } from 'react-i18next';
 import { ReactComponent as IconGithub } from '../../images/socials/github.svg';
 import { ReactComponent as IconTelegram } from '../../images/socials/telegram.svg';
-import { ReactComponent as IconDiscord } from '../../images/socials/discord.svg';
 import { ReactComponent as IconTwitter } from '../../images/socials/twitter.svg';
 
 // Re-using header translations, allowing overwrite with footer specific ones
 const navLinks = [
-  {
-    title: ['Footer-Proposals', 'Header-Proposals'],
-    path: 'https://vote.kintsugi.finance',
-  },
-  {
-    title: ['Footer-Stats', 'Header-Stats'],
-    path: 'https://dashboard.kintsugi.com',
-  },
-  {
-    title: ['Footer-News', 'Header-News'],
-    path: 'https://kintsugi.finance/',
-  },
+ 
+  
   {
     title: ['Footer-Docs', 'Header-Docs'],
     path: 'https://docs.kintsugi.finance',
   },
-  {
-    title: 'Footer-Audit',
-    path: 'https://github.com/Kintsugi-Finance/The-TSU-Docs',
-  },
-  {
-    title: 'Footer-MediaKit',
-    path: 'https://kintsugi.finance',
-  },
+  
 ];
 
 const socialLinks = [
@@ -45,11 +27,6 @@ const socialLinks = [
     title: 'Telegram',
     path: 'https://t.me/KintsugiFinance',
     Icon: IconTelegram,
-  },
-  {
-    title: 'Discord',
-    path: '',
-    Icon: IconDiscord,
   },
   {
     title: 'Twitter',

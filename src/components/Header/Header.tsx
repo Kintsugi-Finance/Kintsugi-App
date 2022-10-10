@@ -51,9 +51,7 @@ const NavLinks = memo(function () {
   const classes = useStyles();
   const navLinks = [
     { title: t('Header-Vaults'), url: '/' },
-    { title: t('Header-Proposals'), url: 'https://vote.kintsugi.finance' },
     // { title: t('Header-BuyCrypto'), url: '/onramp' },
-    { title: t('Header-News'), url: 'https://kintsugi.finance/articles/' },
     { title: t('Header-Docs'), url: 'https://docs.kintsugi.finance' },
   ];
   return (
